@@ -16,10 +16,10 @@
 
 buildscript {
   repositories {
+    
   }
    dependencies {
-        classpath 'com.google.gms:google-services:4.0.1'
-        classpath 'io.fabric.tools:gradle:1.28.1'
+        classpath 'com.android.tools.build:builder:2.3.0'
     }
 }
 
