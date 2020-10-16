@@ -16,7 +16,7 @@
 
 buildscript {
   repositories {
-    jcenter()
+    //jcenter()
   }
    dependencies {
         classpath 'com.android.tools.build:builder:2.3.0'
