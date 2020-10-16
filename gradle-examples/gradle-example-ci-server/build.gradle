@@ -15,12 +15,12 @@
  */
 
 buildscript {
-  //repositories {
+  repositories {
     //jcenter()
-    //maven {
-    //    url "http://localhost:8081/artifactory/libs-release"
-    //}
-  //}
+    maven {
+        url "http://localhost:8081/artifactory/libs-release"
+    }
+  }
    dependencies {
         classpath 'com.android.tools.build:builder:2.3.0'
     }
