@@ -17,6 +17,7 @@
 buildscript {
   repositories {
     //jcenter()
+    allowInsecureProtocol true 
     mavenCentral()
     dependencies {
       classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '4.+')
